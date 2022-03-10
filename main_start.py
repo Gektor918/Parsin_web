@@ -119,7 +119,7 @@ mass_create = [
   }
 ]
 
-telegraph = Telegraph("e651a827ca035267aba3a290cc887a36a3abb712101e7b702abb8ec3cdd2")
+telegraph = Telegraph("TOKEN")
 
 response = telegraph.create_page(
     title = 'Space/News', 
