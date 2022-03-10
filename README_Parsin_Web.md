@@ -1,8 +1,6 @@
-Minimalistic implementation of auto-posting articles in Telegram from a third-party website. 
+Минималистичная реализация автопостинга статей в Telegram со стороннего сайта.
 
-
-
-This project implements the parsing of articles from a third-party website using the Beautiful Soup library, saving the parsing result in a local database (SQLite).
-The next step was the implementation of sending an actual article to telegram using libraries (Request,
-Telegraph). This code implements the logic for updating the database for sending content, and much more: packing the article, sorting in the database, parsing the cover of the article, storing and transferring.
-In the code, there is no registration of an account in telegrams, as well as the creation of the database itself, for brevity and readability of the code itself. 
+В данном проекте реализован парсинг статей со стороннего сайта с помощью библиотеки Beautiful Soup, сохранение результата парсинга в локальной базе данных (SQLite).
+Следующим шагом стала реализация отправки актуальной статьи в телеграм с помощью библиотек (Request,
+Telegraph). В этом коде реализована логика обновления базы для отправки контента и многое другое: упаковка статьи, сортировка в базе, парсинг обложки статьи, хранение и передача.
+В коде нет регистрации аккаунта в телеграм, как и создания самой базы, для краткости и читабельности самого кода.
